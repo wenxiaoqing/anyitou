@@ -1,0 +1,61 @@
+/* here you can put your own css to customize and override the theme */
+
+.form-horizontal .control-info {
+	padding: 7px 10px ;
+	margin: 0;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+
+.grid-view .pager {
+    padding-left: 0;
+    margin: 5px 0;
+    text-align: center;
+    list-style: none;
+}
+table.detail-view .null
+{
+	color: pink;
+}
+table.detail-view
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0;
+}
+table.detail-view th, table.detail-view td
+{
+	font-size: 0.9em;
+	border: 1px white solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+}
+table.detail-view th
+{
+	text-align: right;
+	width: 160px;
+}
+table.detail-view tr.odd
+{
+	background:#E5F1F4;
+}
+table.detail-view tr.even
+{
+	background:#F8F8F8;
+}
+.table.dataTable td { vertical-align:middle; }
+.header.navbar-fixed-top { z-index: 999 !important }
+.modal-backdrop { z-index: 1000 !important; }
+.modal { z-index: 1010 !important; }
